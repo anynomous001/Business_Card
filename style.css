@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+body,html{
+    border: 0;
+    margin: 0;
+    border-radius: 10px 10px 0 0;
+    background-color: #1D1B1B;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.profile-pic{
+    width: 100%;
+    position: relative;
+    bottom: 3.9em; 
+ 
+}
+
+.info-div{
+    text-align: center;
+    color: whitesmoke;
+}
+
+.info-div>h2,p,small{
+    margin: 0em;
+}
+.info-div>p{
+    color: #EBB745;
+}
+.info-div>h2{
+    margin-top: -2em;
+    margin-bottom: 0.2em;
+}
+.info-div>small{
+    margin: 1em;
+    display: block;
+    font-size: 0.75rem;
+    letter-spacing: 0.1ch;
+}
+
+.btn-div{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.btn-div >button{
+    padding: 0.3em;
+    width: 40%;
+    border: none;
+    border-radius: 5px;
+    line-height: 1.5;
+}
+
+#linkedIn-btn{
+    background-color: #3D7BB4;
+    color: whitesmoke;
+}
+.container{
+    width: 100%;
+}
+.about-div{
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    padding: 1em 0;
+}
+.about-div>h2{
+    margin: 0.6em 0;
+}
+.about-div>p{
+    font-size: 0.9rem;
+    letter-spacing: 0.01cm;
+    line-height: 1.3;
+}
+.interests-div{
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    padding: 0.5em 0;
+}
+.interests-div>h2{
+    margin: 0.6em 0;
+}
+.interests-div>p{
+    font-size: 0.9rem;
+    letter-spacing: 0.01cm;
+    line-height: 1.3;
+}
